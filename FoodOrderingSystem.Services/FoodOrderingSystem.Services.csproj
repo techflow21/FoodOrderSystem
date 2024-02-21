@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+	  <PackageReference Include="Paystack.Net.SDK" Version="1.3.8.1" />
+    <PackageReference Include="MimeKit" Version="4.1.0" />
+	  <PackageReference Include="AWSSDK.S3" Version="3.7.104.30" />
+	  <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.101.79" />
+	  <PackageReference Include="MailKit" Version="4.0.0" />
+	  <PackageReference Include="Twilio" Version="6.8.0" />
+	  <PackageReference Include="Vonage" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodOrderingSystem.Infrastructure\FoodOrderingSystem.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
